@@ -6,7 +6,9 @@
  */ 
 void lightf (char morseCode[128])
 {
-	short morseUnit = 75;
+	//DDRB |= (1 << DDB0);
+	
+	short morseUnit = 128;
 	
 	//PORTB |= (1 << PORTB0); //Turns off the diode.
 	//PORTB &= ~(1 << PORTB0); //Turns on the diode.

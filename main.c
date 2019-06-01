@@ -14,9 +14,7 @@
 
 
 int main(void)
-{
-	DDRB |= (1 << DDB0);
-	
+{	
 	char inputMorse[128] = ".... . .-.. .-.. --- / .-- --- .-. .-.. -.. -.-.--"; //Hello world!
 	
 	lightf(inputMorse);		
