@@ -120,7 +120,7 @@
     </ToolchainSettings>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="lightf.h">
+    <Compile Include="lightfAndMore.h">
       <SubType>compile</SubType>
     </Compile>
     <Compile Include="main.c">
